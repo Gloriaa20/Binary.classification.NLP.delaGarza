@@ -45,7 +45,7 @@ The dataset is split into training and testing sets. 80% of the data is used for
 
 6. Sample Prediction
 
-A sample document, "I love playing baseball during the summer.", is classified by the model, and the predicted category (either 0 for rec.sport.baseball or 1 for sci.med) is printed.
+    A sample document, "I love playing baseball during the summer.", is classified by the model, and the predicted category (either 0 for rec.sport.baseball or 1 for sci.med) is printed.
 
 🛠️ How to Run the Code
 1. Clone the Repository
