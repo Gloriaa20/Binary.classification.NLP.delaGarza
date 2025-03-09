@@ -31,8 +31,8 @@ We load the 20 Newsgroups dataset using fetch_20newsgroups from sklearn.datasets
 The dataset is split into training and testing sets. 80% of the data is used for training the model, and the remaining 20% is used for evaluating the model.
 3. Text Preprocessing with TF-IDF
 
-    TF-IDF (Term Frequency-Inverse Document Frequency) is used to convert the text data into numeric features. The TfidfVectorizer from scikit-learn handles this preprocessing.
-    The text data is transformed into a TF-IDF matrix, where each document is represented by a vector of numeric values (weights).
+   TF-IDF (Term Frequency-Inverse Document Frequency) is used to convert the text data into numeric features. The TfidfVectorizer from scikit-learn handles this preprocessing.
+   The text data is transformed into a TF-IDF matrix, where each document is represented by a vector of numeric values (weights).
 
 4. Model Training with Logistic Regression
 
