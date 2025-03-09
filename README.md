@@ -1,26 +1,26 @@
-Binary Text Classification using Logistic Regression
-Description
+# Binary Text Classification using Logistic Regression
 
 This project demonstrates how to perform binary text classification using Natural Language Processing (NLP) with Logistic Regression. The code classifies text documents from the 20 Newsgroups dataset into two categories: 'rec.sport.baseball' and 'sci.med'. It uses TF-IDF vectorization to preprocess the text data and Logistic Regression as the classification model.
 Requirements
 
-To run this project, you need to have Python installed along with the necessary libraries. You can install them using pip:
-pip install numpy pandas scikit-learn
+📌 To run this project, you need to have Python installed along with the necessary libraries. You can install them using pip:
+ 
+    pip install numpy pandas scikit-learn
 
-Required Libraries:
+🚀 Required Libraries:
 
-    numpy (for numerical operations)
-    pandas (for data manipulation)
-    scikit-learn (for machine learning, including models and text preprocessing)
+- numpy (for numerical operations)
+- pandas (for data manipulation)
+- scikit-learn (for machine learning, including models and text preprocessing)
 
-Dataset
+🖥️ Dataset
 
 This project uses the 20 Newsgroups dataset available from scikit-learn. The dataset consists of newsgroup posts categorized into 20 different topics. For this binary classification task, we have filtered the dataset to use only two categories:
 
-    'rec.sport.baseball'
-    'sci.med'
+- 'rec.sport.baseball'
+- 'sci.med'
 
-How It Works
+📊  How It Works
 
 The code follows these steps:
 1. Data Loading
@@ -46,24 +46,28 @@ The dataset is split into training and testing sets. 80% of the data is used for
 6. Sample Prediction
 
 A sample document, "I love playing baseball during the summer.", is classified by the model, and the predicted category (either 0 for rec.sport.baseball or 1 for sci.med) is printed.
-How to Run the Code
-1. Clone the Repository
 
+🛠️ How to Run the Code
+1. Clone the Repository
 Clone this repository to your local machine:
-git clone https://github.com/your-username/binary-text-classification.git
+ 
+       git clone https://github.com/your-username/binary-text-classification.git
 
 2. Navigate to the Project Folder
-cd binary-text-classification
+
+       cd binary-text-classification
 
 3. Install Dependencies
 Install the required dependencies by running:
-pip install -r requirements.txt
+
+       pip install -r requirements.txt
 
 If you don't have requirements.txt, you can manually install the necessary libraries:
-pip install numpy pandas scikit-learn
+
+       pip install numpy pandas scikit-learn
 
 4. Run the Python Script
-
 Execute the Python script to train the model and see the results:
-python binary_text_classification.py
+
+       python binary_text_classification.py
 
