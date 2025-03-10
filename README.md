@@ -26,6 +26,7 @@ The code follows these steps:
 1. Data Loading
 
 We load the 20 Newsgroups dataset using fetch_20newsgroups from sklearn.datasets, specifically selecting the two categories ('rec.sport.baseball' and 'sci.med') for binary classification.
+
 2. Data Splitting
 
 The dataset is split into training and testing sets. 80% of the data is used for training the model, and the remaining 20% is used for evaluating the model.
